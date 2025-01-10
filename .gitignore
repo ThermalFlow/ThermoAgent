@@ -1,0 +1,37 @@
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+*.xlsx
+
+# Virtual environment
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints (if any notebooks are used)
+.ipynb_checkpoints
+
+# Environment variable files (sensitive information)
+# .env
+# *.env
+
+# Streamlit cache and file storage
+streamlit/
+**/.streamlit/
+**/.streamlit/secrets.toml
+**/.streamlit/cache/
+**/.streamlit/cache/*
+
+# Local datasets and generated files (replace with actual directories as needed)
+datasets/
+uploads/
+tmp/
+
+# Ignore VS Code settings and directories (if using VS Code)
+.vscode/
+
+#trigger cloud build
